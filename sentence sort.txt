@@ -1,0 +1,3 @@
+sentence=input("enter the sentence")
+sp=sentence.split()
+print(sorted(sp,key=len))
