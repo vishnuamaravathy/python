@@ -1,0 +1,12 @@
+class car:
+      def c_display(self):
+          print("tata")
+class model(car):
+      def m_display(self):
+          print("nexon")
+          
+obj=model()
+print("car model:",end="")
+obj.m_display()
+print("car company:",end="")
+obj.c_display()
