@@ -1,0 +1,12 @@
+str1=input("enter the string")
+newstr=''
+
+for i in range(0,len(str1)):
+      if str1[i].islower():
+          newstr+=str1[i].upper()
+      elif str1[i].isupper():
+          newstr+=str1[i].lower()
+      else:
+          newstr+=str1[i]
+          
+print('after conversion:',newstr)
